@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postbuild": "mkdir -p dist/gestor-escuela/browser && echo > dist/gestor-escuela/browser/.nojekyll"
   },
   "private": true,
   "dependencies": {
